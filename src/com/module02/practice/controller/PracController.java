@@ -106,7 +106,7 @@ public class PracController {
         Scanner sc = new Scanner(System.in);
         Rnum = sc.nextLine();
 
-        genderNum = Rnum.charAt(9);
+        genderNum = Rnum.charAt(7);
 
         switch (genderNum) {
             case 1,3,5,7,9 :

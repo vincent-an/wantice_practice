@@ -213,17 +213,14 @@ public class ConditionPractice {
         Scanner sc = new Scanner(System.in);
         System.out.print("중간고사 점수 : ");
         int mExam = sc.nextInt();
-        sc.nextLine();
         scoreError(mExam);
 
         System.out.print("기말고사 점수 : ");
         int fExam = sc.nextInt();
-        sc.nextLine();
         scoreError(fExam);
 
         System.out.print("과제 점수 : ");
         int assign = sc.nextInt();
-        sc.nextLine();
         scoreError(assign);
 
         System.out.print("출석 횟수(총 20) : ");

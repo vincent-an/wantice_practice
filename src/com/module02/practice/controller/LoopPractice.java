@@ -202,7 +202,6 @@ public class LoopPractice {
             System.out.print(num[i] + " ");
         }
 
-        ;
     }
 
     public void practice12() {
